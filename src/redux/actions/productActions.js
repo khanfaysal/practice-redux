@@ -9,10 +9,10 @@ export const setProducts = (products) => {
     }
 
 }
-export const setProducts = (products) => {
+export const selectedProduct = (product) => {
     return {
-        type: ActionTypes.SET_PRODUCTS,
-        payload: products
+        type: ActionTypes.SELECTED_PRODUCT,
+        payload: product
     }
 
 }
